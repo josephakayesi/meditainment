@@ -1,6 +1,6 @@
 import React from "react";
 
-import { bricolageGrotesque, uncutSans } from "./lib/fonts";
+import { bricolageGrotesque, uncutSans } from "@/app/ui/fonts";
 
 function Hero() {
   return (

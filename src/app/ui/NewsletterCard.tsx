@@ -3,10 +3,10 @@
 import React, { FormEvent } from "react";
 import Image from "next/image";
 
-import { bricolageGrotesque, uncutSans } from "./../lib/fonts";
+import { bricolageGrotesque, uncutSans } from "@/app/ui/fonts";
 
-import giftIcon from "../../assets/icons/gift.svg";
-import arrowRight from "../../assets/icons/arrow-right.svg";
+import giftIcon from "../../../public//icons/gift.svg";
+import arrowRight from "../../../public/icons/arrow-right.svg";
 
 function NewsletterCard() {
   async function onSubmit(event: FormEvent<HTMLFormElement>) {

@@ -1,11 +1,11 @@
 import React from "react";
 import Image from "next/image";
 
-import harmonyIcon from "../assets/icons/harmony.svg";
-import tranquilityIcon from "../assets/icons/tranquility.svg";
-import balanceIcon from "../assets/icons/balance.svg";
+import harmonyIcon from "../../../public/icons/harmony.svg";
+import tranquilityIcon from "../../../public/icons/tranquility.svg";
+import balanceIcon from "../../../public/icons/balance.svg";
 
-import { bricolageGrotesque, uncutSans } from "./lib/fonts";
+import { bricolageGrotesque, uncutSans } from "../ui/fonts";
 
 function InfoGrid() {
   return (

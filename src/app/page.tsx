@@ -1,17 +1,17 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import { bricolageGrotesque, uncutSans } from "./components/lib/fonts";
+import { bricolageGrotesque, uncutSans } from "./ui/fonts";
 
-import heartIcon from "./assets/icons/heart.svg";
-import instagramIcon from "./assets/icons/instagram.svg";
-import xIcon from "./assets/icons/x.svg";
+import heartIcon from "./../../public/icons/heart.svg";
+import instagramIcon from "./../../public/icons/instagram.svg";
+import xIcon from "./../../public/icons/x.svg";
 
 // Components
 import Hero from "./components/Hero";
 import InfoGrid from "./components/InfoGrid";
 import Footer from "./components/Footer";
-import NewsletterCard from "./components/ui/NewsletterCard";
+import NewsletterCard from "./ui/NewsletterCard";
 
 export default function Home() {
   return (

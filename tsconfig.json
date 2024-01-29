@@ -18,8 +18,9 @@
       }
     ],
     "paths": {
-      "@ui/*": ["./src/components/ui"],
-      "@/*": ["./src/*"]
+      "@ui/*": ["./src/ui"],
+      "@/*": ["./src/*"],
+      "@public/*": ["./public/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
