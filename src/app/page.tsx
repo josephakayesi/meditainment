@@ -27,8 +27,8 @@ export default function Home() {
             <ul
               className={`text-[3rem] ${bricolageGrotesque.variable} font-sans font-normal text-[#FCF5E5] `}
             >
-              <li>Questions?</li>
-              <li>FAQ</li>
+              <li className="hover:text-gray-300 cursor-pointer">Questions?</li>
+              <li className="hover:text-gray-300 cursor-pointer">FAQ</li>
             </ul>
             <ul
               className={`text-[1.5rem] ${bricolageGrotesque.variable} font-sans font-normal text-[#FCF5E5] `}
@@ -46,21 +46,21 @@ export default function Home() {
           </div>
           <div className="flex justify-between mt-24 pb-2 gap-8">
             <ul className="flex gap-2">
-              <li>
-                <Link href="https://instagram.com/josephakayesi">
+              <Link href="https://instagram.com/josephakayesi">
+                <li>
                   <Image
                     src={instagramIcon}
                     width={16}
                     height={16}
                     alt="instagram icon"
                   />
-                </Link>
-              </li>
-              <li>
-                <Link href="https://x.com/josephakayesi">
+                </li>
+              </Link>
+              <Link href="https://x.com/josephakayesi">
+                <li>
                   <Image src={xIcon} width={16} height={16} alt="x icon" />
-                </Link>
-              </li>
+                </li>
+              </Link>
             </ul>
             <p
               className={`text-[0.75rem] text-[#FAF4F1] ${uncutSans.variable} font-mono font-normal`}

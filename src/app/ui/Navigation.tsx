@@ -42,21 +42,15 @@ function Navigation() {
             menuOpen && "top-[80px] border-y shadow border-[#020202]"
           )}
         >
-          <li className="mx-4 my-6 md:my-0">
-            <Link className="hover:text-gray-500 duration-500" href={"#"}>
-              Sessions
-            </Link>
-          </li>
-          <li className="mx-4 my-6 md:my-0">
-            <Link className="hover:text-gray-500" href={"#"}>
-              About Us
-            </Link>
-          </li>
-          <li className="mx-4 my-6 md:my-0">
-            <Link className="hover:text-gray-500" href={"#"}>
-              Pricing
-            </Link>
-          </li>
+          <Link className="hover:text-gray-500 duration-500" href={"#"}>
+            <li className="mx-4 my-6 md:my-0">Sessions</li>
+          </Link>
+          <Link className="hover:text-gray-500" href={"#"}>
+            <li className="mx-4 my-6 md:my-0">About Us</li>
+          </Link>
+          <Link className="hover:text-gray-500" href={"#"}>
+            <li className="mx-4 my-6 md:my-0">Pricing</li>
+          </Link>
           <button
             className={`text-white ${bricolageGrotesque.variable} font-sans font-medium rounded-full px-6 py-2 mx-4 bg-[#020202] hover:bg-[#FCF5E5] border-[#020202] border hover:text-[#020202]`}
           >

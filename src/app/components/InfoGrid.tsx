@@ -17,6 +17,7 @@ function InfoGrid() {
             src={harmonyIcon}
             width={40}
             height={40}
+            priority={true}
             alt="tranquility icon"
           />
           <h2
