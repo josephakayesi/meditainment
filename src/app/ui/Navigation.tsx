@@ -35,34 +35,34 @@ function Navigation() {
           )}
         </div>
 
-        <ul
+        <div
           className={clsx(
             "md:flex md:items-center  md:z-auto md:static absolute bg-[#FCF5E5] w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 transition-all ease-in duration-500",
             !menuOpen && "opacity-0 top-[-400px] z-[-1]",
             menuOpen && "top-[80px] border-y shadow border-[#020202]"
           )}
         >
-          <li className="mx-4 my-6 md:my-0">
+          <p className="mx-4 my-6 md:my-0">
             <Link className="hover:text-gray-500 duration-500" href={"#"}>
               Sessions
             </Link>
-          </li>
-          <li className="mx-4 my-6 md:my-0">
+          </p>
+          <p className="mx-4 my-6 md:my-0">
             <Link className="hover:text-gray-500" href={"#"}>
               About Us
             </Link>
-          </li>
-          <li className="mx-4 my-6 md:my-0">
+          </p>
+          <p className="mx-4 my-6 md:my-0">
             <Link className="hover:text-gray-500" href={"#"}>
               Pricing
             </Link>
-          </li>
+          </p>
           <button
             className={`text-white ${bricolageGrotesque.variable} font-sans font-medium rounded-full px-6 py-2 mx-4 bg-[#020202] hover:bg-[#FCF5E5] border-[#020202] border hover:text-[#020202]`}
           >
             Sign in
           </button>
-        </ul>
+        </div>
       </nav>
     </header>
   );

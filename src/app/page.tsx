@@ -45,23 +45,26 @@ export default function Home() {
             </ul>
           </div>
           <div className="flex justify-between mt-24 pb-2 gap-8">
-            <ul className="flex gap-2">
-              <Link href="https://instagram.com/josephakayesi">
-                <li>
-                  <Image
-                    src={instagramIcon}
-                    width={16}
-                    height={16}
-                    alt="instagram icon"
-                  />
-                </li>
+            <div className="flex gap-2">
+              <Link
+                href="https://instagram.com/josephakayesi"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  src={instagramIcon}
+                  width={16}
+                  height={16}
+                  alt="instagram icon"
+                />
               </Link>
-              <Link href="https://x.com/josephakayesi">
-                <li>
-                  <Image src={xIcon} width={16} height={16} alt="x icon" />
-                </li>
+              <Link
+                href="https://x.com/josephakayesi"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image src={xIcon} width={16} height={16} alt="x icon" />
               </Link>
-            </ul>
+            </div>
             <p
               className={`text-[0.75rem] text-[#FAF4F1] ${uncutSans.variable} font-mono font-normal`}
             >
