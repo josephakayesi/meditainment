@@ -18,7 +18,7 @@ function Navigation() {
   return (
     <header>
       <nav
-        className={`bg-[#FCF5E5] p-5 md:flex flex justify-between md:items-center md:justify-between  ${bricolageGrotesque.variable} font-sans font-medium`}
+        className={`bg-[#FCF5E5] p-5 md:flex flex justify-between md:items-center md:justify-between md:px-24 w-screen ${bricolageGrotesque.variable} font-sans font-medium`}
       >
         <div>
           <Image src={logo} width={24} height={24} alt="meditainment logo" />

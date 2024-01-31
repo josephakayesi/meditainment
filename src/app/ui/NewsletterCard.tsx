@@ -32,6 +32,7 @@ const submitButtonLoading = () => {
 };
 function NewsletterCard() {
   const [submitLoading, setSubmitLoading] = useState<boolean>(false);
+  const [email, setEmail] = useState<string>("");
 
   async function onSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -44,6 +45,8 @@ function NewsletterCard() {
         variant: response.success ? "success" : "error",
         hideIconVariant: false,
       });
+
+      setEmail("");
     } catch (error) {
       setSubmitLoading(false);
     } finally {
@@ -84,6 +87,8 @@ function NewsletterCard() {
           pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
           className={`p-8 rounded-full border border-[#020202] w-full lg:w-[18.75rem] ${uncutSans.variable} text-[1rem] font-mono font-normal invalid:[&:not(:placeholder-shown):not(:focus)]:border-red-500`}
           placeholder="Enter your email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
         />
         {submitLoading ? (
           submitButtonLoading()

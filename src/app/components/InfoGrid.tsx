@@ -13,8 +13,8 @@ function InfoGrid() {
       <div className="col-span-1 md:col-span-1 lg:col-span-2 w-full relative rounded-[3px] p-[2rem] md:p-[4.5rem] h-[34rem] text-[#FCF5E5]">
         <Image
           src="https://res.cloudinary.com/tutcan/image/upload/v1706476067/meditainment/bg-harmony.webp"
-          layout="fill"
-          objectFit="cover"
+          fill
+          style={{ objectFit: "cover" }}
           priority={true}
           alt="Background Image"
         />
@@ -43,8 +43,8 @@ function InfoGrid() {
       <div className="w-full relative rounded-[3px] p-[2rem] md:p-[4.5rem] h-[34rem] text-[#FCF5E5]">
         <Image
           src="https://res.cloudinary.com/tutcan/image/upload/v1706476674/meditainment/bg-balance.webp"
-          layout="fill"
-          objectFit="cover"
+          fill
+          style={{ objectFit: "cover" }}
           priority={true}
           alt="Background Image"
         />
@@ -73,9 +73,10 @@ function InfoGrid() {
       <div className="w-full relative rounded-[3px] p-[2rem] md:p-[4.5rem] h-[34rem] text-[#FCF5E5]">
         <Image
           src="https://res.cloudinary.com/tutcan/image/upload/v1706476674/meditainment/bg-tranquility.webp"
-          layout="fill"
-          objectFit="cover"
+          style={{ objectFit: "cover" }}
+          fill
           alt="Background Image"
+          priority={true}
         />
 
         <div className="flex flex-col relative z-10">
