@@ -10,8 +10,16 @@ import { bricolageGrotesque, uncutSans } from "../ui/fonts";
 function InfoGrid() {
   return (
     <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 w-full gap-[20px]">
-      <div className="col-span-1 md:col-span-1 lg:col-span-2 w-full bg-[url(https://res.cloudinary.com/tutcan/image/upload/v1706476067/meditainment/bg-harmony.webp)] bg-cover rounded-[3px] p-[2rem] md:p-[4.5rem] h-[34rem] text-[#FCF5E5]">
-        <div className="flex flex-col ">
+      <div className="col-span-1 md:col-span-1 lg:col-span-2 w-full relative rounded-[3px] p-[2rem] md:p-[4.5rem] h-[34rem] text-[#FCF5E5]">
+        <Image
+          src="https://res.cloudinary.com/tutcan/image/upload/v1706476067/meditainment/bg-harmony.webp"
+          layout="fill"
+          objectFit="cover"
+          priority={true}
+          alt="Background Image"
+        />
+
+        <div className="flex flex-col relative z-10">
           <Image
             className="my-4 md:my-8"
             src={harmonyIcon}
@@ -31,13 +39,23 @@ function InfoGrid() {
           </p>
         </div>
       </div>
-      <div className="w-full bg-[url(https://res.cloudinary.com/tutcan/image/upload/v1706476674/meditainment/bg-balance.webp)] bg-cover rounded-[3px]  p-[2rem] md:p-[4.5rem] h-[34rem] text-[#FCF5E5]">
-        <div className="flex flex-col ">
+
+      <div className="w-full relative rounded-[3px] p-[2rem] md:p-[4.5rem] h-[34rem] text-[#FCF5E5]">
+        <Image
+          src="https://res.cloudinary.com/tutcan/image/upload/v1706476674/meditainment/bg-balance.webp"
+          layout="fill"
+          objectFit="cover"
+          priority={true}
+          alt="Background Image"
+        />
+
+        <div className="flex flex-col relative z-10">
           <Image
             className="my-4 md:my-8"
             src={balanceIcon}
             width={40}
             height={40}
+            priority={true}
             alt="balance icon"
           />
           <h2
@@ -51,13 +69,22 @@ function InfoGrid() {
           </p>
         </div>
       </div>
-      <div className="w-full bg-[url(https://res.cloudinary.com/tutcan/image/upload/v1706476674/meditainment/bg-tranquility.webp)] bg-cover bg-no-repeat rounded-[3px]  p-[2rem] md:p-[4.5rem] h-[34rem] text-[#FCF5E5]">
-        <div className="flex flex-col ">
+
+      <div className="w-full relative rounded-[3px] p-[2rem] md:p-[4.5rem] h-[34rem] text-[#FCF5E5]">
+        <Image
+          src="https://res.cloudinary.com/tutcan/image/upload/v1706476674/meditainment/bg-tranquility.webp"
+          layout="fill"
+          objectFit="cover"
+          alt="Background Image"
+        />
+
+        <div className="flex flex-col relative z-10">
           <Image
             className="my-4 md:my-8"
             src={tranquilityIcon}
             width={40}
             height={40}
+            priority={true}
             alt="balance icon"
           />
           <h2
