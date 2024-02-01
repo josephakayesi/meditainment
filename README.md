@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Meditainment
 
-## Getting Started
+A landing page for a fictitious wellness company that combines meditation with entertainment.
 
-First, run the development server:
+#### Things I was able to achieve on this project
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Setting up local fonts and extending Tailwind theme with font variables
+- Setting up a sleek and beautiful notification library
+- Highly responsive UI with best performance on all widely used views
+- Using a component with `children` prop
+- Use of many icons
+- Optimized images for best performance
+- Using `clsx` for constructing `className` conditionally
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Table of contents
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [Continued development](#continued-development)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Overview
 
-## Learn More
+### The challenge
 
-To learn more about Next.js, take a look at the following resources:
+The challenge was to:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Build a very well designed and high quality UI with highly optimized images and fast loading time of less than 1 second
+- Build a high conversion UI
+- Build a highly responsive UI that seamlessly adapts to all screen sizes
+- Create button and input interactions that mimics email subscription
+- Create a responsive and well designed navigation bar with animations.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Screenshot
 
-## Deploy on Vercel
+![](./public/images/meditainment-ui.jpg)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Links
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [Solution URL](https://github.com/josephakayesi/meditainment/)
+- [Live Site URL](https://meditainment.vercel.app/)
+
+## My process
+
+### Built with
+
+- [NextJS](https://nextjs.org/)
+- [Notistack](https://notistack.com/)
+- [clsx](https://www.npmjs.com/package/clsx)
+- [Tailwind](https://tailwindcss.com/)
+
+### Continued development
+
+- I want to focus more on creating high conversion landing pages with a high quality copy for marketing and converting leads.
+- I want to focus on creating more delightful animations
+- I want create high-performing and delightful data-intensive web applications
+
+## Author
+
+- Website - [Joseph Akayesi](https://www.josephakayesi.com)
+- Linkedin - [josephakayesi](https://www.linkedin.com/in/josephakayesi/)
+- Twitter - [@josephakayesi](https://www.twitter.com/josepakayesi)
+
+## Acknowledgements
+
+I drew inspiration from [Mono's website](https://mono.co/). There is a section on their website that implements a grid and I loved how it was executed on their site.

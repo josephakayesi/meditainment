@@ -12,9 +12,6 @@ const config: Config = {
         sans: ["var(--font-bricolage-grotesque)"],
         mono: ["var(--font-uncut-sans)"],
       },
-      backgroundImage: {
-        harmony: "url('/src/assets/images/bg-harmony.jpg')",
-      },
     },
   },
   plugins: [],
