@@ -16,7 +16,7 @@ A landing page for a fictitious wellness company that combines meditation with e
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Figma UI](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -36,7 +36,7 @@ The challenge was to:
 - Create button and input interactions that mimics email subscription
 - Create a responsive and well designed navigation bar with animations.
 
-### Screenshot
+### Figma UI
 
 ![](./public/images/meditainment-ui.jpg)
 
