@@ -6,7 +6,7 @@ A landing page for a fictitious wellness company that combines meditation with e
 
 - Setting up local fonts and extending Tailwind theme with font variables
 - Setting up a sleek and beautiful notification library
-- Highly responsive UI with best performance on all widely used views
+- Design and build a highly responsive UI with best performance on all widely used views
 - Using a component with `children` prop
 - Use of many icons
 - Optimized images for best performance
@@ -30,7 +30,7 @@ A landing page for a fictitious wellness company that combines meditation with e
 
 The challenge was to:
 
-- Build a very well designed and high quality UI with highly optimized images and fast loading time of less than 1 second
+- Design and build a high quality UI with highly optimized images and fast loading time of less than 1 second
 - Build a high conversion UI
 - Build a highly responsive UI that seamlessly adapts to all screen sizes
 - Create button and input interactions that mimics email subscription
